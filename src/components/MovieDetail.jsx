@@ -14,7 +14,7 @@ const MovieDetail = () => {
     const fetchMovie = async () => {
       try {
         const response = await axios.get(
-          `${import.meta.env.VITE_BASE_URL}&i=${id}` // Removed page parameter
+          `https://www.omdbapi.com/?apikey=21e81da2&i=${id}` // Removed page parameter
         );
         if (response.data.Response === "True") {
           setMovie(response.data);
