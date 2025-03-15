@@ -15,7 +15,7 @@ const SearchBar = ({
         placeholder="Search for movies..."
         value={query}
         onChange={handleChange}
-        className="w-full p-2 md:text-xl md:h-14 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="w-full p-2 md:text-xl md:h-14 border border-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
       {query && (
         <>

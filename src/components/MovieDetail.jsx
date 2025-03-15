@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
+import { FaHeartCirclePlus } from "react-icons/fa6";
+import { BiSolidCameraMovie } from "react-icons/bi";
+import { RiMovie2AiLine  } from "react-icons/ri";
+import { FaHeart } from "react-icons/fa";
 import { useParams } from "react-router-dom";
+import Header from "../Header";
 import LoadingPlaceholder from "./LoadingPlaceholder";
 import novideo from "../assets/no_video.jpg";
 
@@ -18,6 +24,8 @@ const MovieDetail = () => {
         );
         if (response.data.Response === "True") {
           setMovie(response.data);
+          // console.log(id)
+          // localStorage.setItem(JSON.stringify(id), JSON.stringify(response.data));
         } else {
           setError("Movie not found.");
         }
@@ -30,13 +38,22 @@ const MovieDetail = () => {
     fetchMovie();
   }, [id]);
 
+  const AddToFav = () => {
+    localStorage.setItem(JSON.stringify(id), JSON.stringify(movie));
+    alert("Movie added to favourite list");
+  }
+
   return (
+    <>
+    <Header />
     <div className="container mx-auto">
-      <h1 className="text-3xl p-6 font-bold">Movie Detail</h1>
+     
+      
       <div className="max-w-4xl mx-auto p-4">
+      <h1 className="text-xl font-bold">Movie Detail :-</h1>
         {!loading ? (
           !error ? (
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-4">
               <img
                 
                 src={
@@ -48,7 +65,10 @@ const MovieDetail = () => {
                 className="w-full aspect-video m-auto rounded-lg"
               />
               <div className="">
+                <div className="flex aligh-center justify-between">
                 <h1 className="text-3xl font-bold">{movie?.Title}</h1>
+                <div onClick={()=>AddToFav()} className="text-4xl font-bold cursor-pointer"><FaHeartCirclePlus /></div>
+                </div>
                 <p className="text-gray-600 mt-2">{movie?.Year}</p>
                 <p className="mt-4">{movie?.Plot}</p>
               </div>
@@ -66,6 +86,7 @@ const MovieDetail = () => {
         )}
       </div>
     </div>
+    </>
   );
 };
 

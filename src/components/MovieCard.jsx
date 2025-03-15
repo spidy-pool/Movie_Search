@@ -1,7 +1,10 @@
 import React from "react";
+// import { FaHeartCirclePlus } from "react-icons/fa6";
+import { MdLocalMovies } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const MovieCard = ({ movie }) => {
+ 
   return (
     <Link to={`/movie/${movie?.imdbID}`} className="block">
       <div className="bg-white h-full rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
@@ -20,7 +23,11 @@ const MovieCard = ({ movie }) => {
               ? movie?.Title.slice(0, 50) + "..."
               : movie?.Title}
           </h3>
-          <p className="text-gray-600">{movie?.Year}</p>
+          <div className="flex justify-between items-center mt-2">
+            <p className="text-gray-700">{movie?.Year}</p>
+            <div className="text-xl"><MdLocalMovies /></div>
+          </div>
+
         </div>
       </div>
     </Link>

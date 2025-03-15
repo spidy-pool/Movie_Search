@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const searchMovies = async (query, page, year) => {
-  console.log(year);
+  // console.log(year);
 
   try {
     
