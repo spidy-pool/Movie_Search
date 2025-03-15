@@ -6,8 +6,7 @@ export const searchMovies = async (query, page, year) => {
   try {
     
     const response = await axios.get(
-      // `${import.meta.env.VITE_BASE_URL}&s=${query.trim()}&page=${page}&y=${year}` 
-      `https://www.omdbapi.com/?apikey=21e81da2&s=${query.trim()}&page=${page}&y=${year}` 
+      `${import.meta.env.VITE_BASE_URL}&s=${query.trim()}&page=${page}&y=${year}` // Corrected line
     );
     return response.data;
   } catch (error) {
