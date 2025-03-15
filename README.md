@@ -10,11 +10,11 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 
 1.  **Clone the Magic:**
     ```bash
-    git clone [Your GitHub Repository Link]
+    git clone https://github.com/spidy-pool/Movie_Search.git
     ```
 2.  **Step into the Spotlight:**
     ```bash
-    cd [project-directory]
+    cd Movie_Search
     ```
 3.  **Conjure the Dependencies:**
     ```bash
@@ -57,7 +57,7 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 
 ## 🚀 Live Demo & Repository 🚀
 
-* **GitHub Repository:** https://github.com/spidy-pool/Movie_Search.git
+* **GitHub Repository:** https://github.com/spidy-pool/Movie_Search
 * **Live Demo:** https://movie-search-neon-eight.vercel.app/  or https://movies-search-reactjs.netlify.app/
 
 ## 🔮 Future Blockbusters 🔮
