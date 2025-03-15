@@ -36,7 +36,7 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 * **🎞️ Stunning Movie Grids:** Browse through beautifully presented movie cards, showcasing titles, years, and eye-catching posters.
 * **📖 Deep Dive into Details:** Explore comprehensive movie details on dedicated pages, including plots, cast, and more.
 * **📜 Infinite Scroll :** Seamlessly navigate through search results with all search related moives.
-* ** ❤️Favorites Feature:** Users can add movies to their favorites list by clicking a ❤️ (filled heart) icon on each movie card.        Favorited movies are stored in `localStorage` and indicated by a filled heart icon.
+* **❤️Favorites Feature:** Users can add movies to their favorites list by clicking a ❤️ (filled heart) icon on each movie card.        Favorited movies are stored in `localStorage` and indicated by a filled heart icon.
 * **⏳ Loading Elegance:** Enjoy smooth transitions with loading skeletons and placeholders.
 * **🚨 Error Handling with Flair:** Receive clear and stylish error messages for a polished user experience.
 * **📱 Mobile Responsive :** Experience a fully responsive design that looks fantastic on any device.
