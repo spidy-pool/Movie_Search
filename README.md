@@ -58,7 +58,7 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 ## 🚀 Live Demo & Repository 🚀
 
 * **GitHub Repository:** https://github.com/spidy-pool/Movie_Search.git
-* **Live Demo:** [Your Live Demo Link]
+* **Live Demo:** https://movie-search-neon-eight.vercel.app/  or https://movies-search-reactjs.netlify.app/
 
 ## 🔮 Future Blockbusters 🔮
 
