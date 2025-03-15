@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import debounce from 'lodash.debounce';
+import { BiSolidCameraMovie } from "react-icons/bi";
+import { RiMovie2AiFill ,RiMovie2AiLine  } from "react-icons/ri";
 import SearchBar from "./SearchBar";
 import MovieGrid from "./MovieGrid";
 import LoadingPlaceholder from "./LoadingPlaceholder";
@@ -111,7 +112,14 @@ const Home = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">Movie Search App</h1>
+      <h1 className="text-3xl font-bold mb-6">
+      <BiSolidCameraMovie className="text-4xl" />
+      <span className="flex justify-center">
+        Movie Search App 
+        <RiMovie2AiLine className="text-xl" />
+        {/* <RiMovie2AiLine /> */}
+        </span>
+        </h1>  
       <SearchBar
         query={query}
         handleChange={handleChange}
@@ -129,7 +137,7 @@ const Home = () => {
         </div>
       )}
       {!movies?.length && !query && (
-        <div className="text-4xl font-bold text-center flex flex-col justify-center items-center">
+        <div className="text-3xl font-bold text-center flex flex-col justify-center items-center">
           <img src={movies_logo} alt="movies" />
           <p>Search Your Favourite Movie Here</p>
         </div>
