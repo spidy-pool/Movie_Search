@@ -8,11 +8,11 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 
 ### 🛠️ Setup Instructions
 
-1.  **Clone the Magic:**
+1.  **Clone the MovieSearch project:**
     ```bash
     git clone https://github.com/spidy-pool/Movie_Search.git
     ```
-2.  **Step into the Spotlight:**
+2.  **Step into the move in main directory or folder:**
     ```bash
     cd Movie_Search
     ```
@@ -23,12 +23,12 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 4.  **Reveal Your Secret API Key:**
     * Create a `.env.local` file in the root of your project.
     * Add your OMDB API key like so: `VITE_BASE_URL=http://www.omdbapi.com/?apikey=YOUR_API_KEY`
-5.  **Roll the Cameras!**
+5.  **To start or run project!**
     ```bash
     npm run dev  # or yarn dev
     ```
 6.  **Experience the Silver Screen:**
-    * Open your browser and navigate to `http://localhost:5173`.
+    * Open your browser and navigate to `http://localhost:5173`(as default) or given URL in your terminal after running project.
 
 ## 🌟 Features  🌟
 
@@ -47,7 +47,7 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 
 * **OMDB API:** [http://www.omdbapi.com/](http://www.omdbapi.com/) - Here the way of  movies database .
 
-## 🌈 Technologies That Make CineSearch Shine 🌈
+## 🌈 Technologies That Make MovieSearch Shine 🌈
 
 * **React.js:** For building dynamic and interactive user interfaces.
 * **Redux:** For Client side caching using Redux toolkit.
