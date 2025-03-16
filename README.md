@@ -47,7 +47,7 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 
 * **OMDB API:** [http://www.omdbapi.com/](http://www.omdbapi.com/) - Here the way of  movies database .
 
-## 🌈 Technologies That Make CineSearch Shine 🌈
+## 🌈 Technologies That Make MovieSearch Shine 🌈
 
 * **React.js:** For building dynamic and interactive user interfaces.
 * **Redux:** For Client side caching using Redux toolkit.
