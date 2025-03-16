@@ -72,7 +72,7 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 
 ![Home](src/assets/home.png)
 ![Animation-Skeleton](src/assets/skelten.png)
-![Movie-Search](src/assets/movie.png)
+![Movie-Search](src/assets/movies.png)
 ![Movies-Details](src/assets/detail.png)
 ![Favourite-Movies](src/assets/fav.png)
 
