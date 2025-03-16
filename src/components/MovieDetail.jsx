@@ -53,7 +53,7 @@ const MovieDetail = () => {
       <h1 className="text-xl font-bold">Movie Detail :-</h1>
         {!loading ? (
           !error ? (
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
               <img
                 
                 src={

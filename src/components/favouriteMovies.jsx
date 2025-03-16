@@ -24,8 +24,13 @@ const FavouriteMovies = () => {
     return (
         <div>
             <Header />
+         
+                <h1 className="text-3xl font-bold">
+                   Your favourite Movies:-
+                </h1>
+            
             {movies.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 m-8">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 m-8 mt-2">
                     {movies.map((movie, index) => (
                         <div key={index} className="bg-white rounded-lg shadow-md">
                             <img

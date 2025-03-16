@@ -64,11 +64,22 @@ Welcome to MovieSearch, a sleek and intuitive React.js application designed to b
 ## 🔮 Future Blockbusters 🔮
 
 * **Genre & Rating Filters:** Refine your searches with even more precision.
-* **Favorites Feature:** Save your favorite movies using `localStorage`.
-
 * **Keyboard Navigation:** Navigate CineSearch like a pro with keyboard shortcuts.
 * **Dynamic Animations:** Add subtle animations for a more engaging experience.
 * **Advanced Responsive Design:** Further improve responsive design for all screen sizes.
+
+## Screenshot of Project 
+
+![Home]
+(src/assets/home.png)
+![Animation-Skeleton]
+(src/assets/skelten.png)
+![Movie-Search]
+(src/assets/movie.png)
+![Movies-Details]
+(src/assets/detail.png)
+![Favourite-Movies]
+(src/assets/fav.png)
 
 ## 💌 Contact & Feedback 💌
 
